@@ -72,6 +72,15 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
+import FastAPI from "/public/svg/skills/FastAPI.svg";
+import CNN from "/public/svg/skills/convolutional_neural_network_0.svg";
+import ComputerVision from "/public/svg/skills/machine-vision-svgrepo-com.svg";
+import NestJS from "/public/svg/skills/nestjs-icon.svg";
+import NodeJS from "/public/svg/skills/nodejs.svg";
+import ExpressJS from "/public/svg/skills/expressjs-icon.svg";
+import MachineLearning from "/public/svg/skills/machine-learning-svgrepo-com.svg";
+import LSTM from "/public/svg/skills/The_LSTM_Cell.svg";
+
 
 
 export const skillsImage = (skill) => {
@@ -225,6 +234,22 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'fastapi':
+      return FastAPI
+    case "cnn":
+      return CNN
+    case "computervision":
+      return ComputerVision
+    case "nestjs":
+      return NestJS
+    case "nodejs":
+      return NodeJS
+    case "expressjs":
+      return ExpressJS
+    case "machinelearning":
+      return MachineLearning
+    case "lstm":
+      return LSTM
     default:
       break;
   }
