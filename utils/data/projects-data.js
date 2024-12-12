@@ -8,8 +8,7 @@ export const projectsData = [
     id: 1,
     name: "Leveraging Sequential Deep Learning Models for Detecting Multitude of Human Action Categories ",
     description:
-      "In today’s world, where science and technology are constantly evolving day by day, people are drawn to tangible experiences and visual representations. There’s a growing effort to teach machines about human movements and postures to enable smart decision-making. This has led to increased interest in the field of human action recognition (HAR) among researchers globally. Our research focuses on implementing advanced technologies to address criminal activities, specifically emphasizing Human Activity Recognition (HAR). Moreover, our dataset includes 1275 videos, covering 20 different actions involving both violent and non-violent behaviors. In addition, we have developed a pipeline that utilizes YOLO-v8 to extract background, followed by models for accurate video classification. two models,conv-lstm and lrcn, were incorporated into our deep learning pipeline. Through our observations, we found that the LRCN model outperformed the other model, achieving an accuracy of 62% and an F1 score of 60% for the 20 classes, for 17 classes an accuracy of 63% and an F1 score of 66%. for binary classification LRCN got accuracy of 88% and an F1 score of 87%Our research focusses the potential of advanced technologies to significantly improve Human Activity Recognition (HAR) in addressing various aspects of criminal activities in real-time scenario. This marks a substantial step forward in intelligent decision-making and public safety.",
-
+      "In today’s rapidly advancing world of science and technology, Human Action Recognition (HAR) has gained significant attention for enabling smart decision-making. Our research focuses on applying HAR to address criminal activities using a dataset of 1,275 videos featuring 20 actions, including violent and non-violent behaviors. We developed a pipeline combining YOLO-v8 for background extraction and deep learning models (Conv-LSTM and LRCN) for video classification. The LRCN model achieved the best performance, with 62% accuracy and 60% F1 score for 20 classes, 63% accuracy and 66% F1 score for 17 classes, and 88% accuracy with 87% F1 score for binary classification. This work highlights the potential of HAR in enhancing real-time public safety and intelligent decision-making.",
     tools: [
       "Python",
       "Tensorflow",
@@ -50,7 +49,8 @@ export const projectsData = [
     id: 3,
     name: "Cattle-Weight Prediction System",
     description:
-      "This is the system where it requires two images of cow, one is side and other one is rear image. By reading the side and rear images, it will first segment the side and rear image of the cow and then it will detect the necessary key points of the cow and based on keypoints , the length and grith can be found. Morever, from the length and grith a regression model will be applied for predicting cow weight. In addition, severel models have been used such as- one model is to segment the cow, other model is to detect the keypoints of cow and other regression model has been used to predict the weight of the cow. Also a key tool has been used which is MMLab and it helped to perform the action.",
+      "This system uses side and rear images of a cow to predict its weight. It segments the images, detects key points, and calculates the cow's length and girth. A regression model then predicts the weight based on these measurements. Multiple models are used for segmentation, keypoint detection, and regression, with MMLab as a key tool for implementation.",
+
     tools: [
       "Python",
       "MMCV",
@@ -93,14 +93,14 @@ export const projectsData = [
     code: "",
     demo: "",
     image: ayla,
-    role: "Image Processing, model training and integrating the models in the restful APIS for cow weight prediction",
+    role: "Image Processing, model training and integrating the models in the restful APIS for cow disease detection",
   },
   {
     id: 5,
     name: "Advanced Leaf Counting for Agricultural Applications Using Deep Learning",
 
     description:
-      "In this project, we address the task of quantifying the number of rosette leaves in RGB images, a critical aspect of plant phenotyping. Our approach is based on data-driven methodologies that are adaptable to various plant species and imaging configurations. To tackle this challenge, we utilize cutting-edge deep learning models, employing a deconvolutional neural network (De-CNN) for initial segmentation and a convolutional neural network (CNN) for leaf counting. We evaluate our method using the CVPPP-2017 dataset, which provides a relatively small number of training examples compared to standard deep learning image datasets. Despite this limitation, we achieve commendable results in both leaf segmentation and leaf counting by applying straightforward data augmentation techniques. Furthermore, we conduct a comparative analysis against methods previously evaluated on competition datasets. Our approach demonstrates an average mean absolute count difference of 1.62 and a standard deviation (SD) of 2.30 across all five test datasets.",
+      "This project focuses on counting rosette leaves in RGB images for plant phenotyping using adaptable data-driven methods. A deconvolutional neural network (De-CNN) handles segmentation, while a CNN counts the leaves. Despite limited training data from the CVPPP-2017 dataset, we achieve strong results with data augmentation, achieving an average mean absolute count difference of 1.62 and a standard deviation of 2.30, outperforming previous methods.",
 
     tools: ["python", "torch", "CNN", "DE-CNN", "Torch", "Tensorflow"],
     role: "Model training",
@@ -111,11 +111,18 @@ export const projectsData = [
   {
     id: 6,
     name: "User and Admin Management Service",
-    
-  description: "This project offers a seamless experience for users and administrators with a range of powerful features. Users can register, log in, and access real-time chat via WebSocket technology. Registered users also enjoy exclusive access to live streaming sessions powered by Agora Streaming Service. For administrators, the platform provides tools to manage the system effectively. Admins can register, log in, allocate jobs to other admins with salary settings, delete user accounts, and update user details as needed. Built with a modern tech stack, the platform uses Vite for a fast frontend and NestJS for a scalable backend, ensuring a reliable and efficient user experience."
-  ,
 
-    tools: ["NestJS","ReactJS","Redis","Prisma","Javascript","Typescript","AGORA"],
+    description:
+      "This project delivers a seamless platform for users and administrators. Users can register, log in, access real-time chat via WebSocket, and enjoy live streaming with Agora. Administrators manage the system with tools for job allocation, salary settings, and user account management. Built with Vite and NestJS, it ensures a fast, scalable, and efficient experience",
+    tools: [
+      "NestJS",
+      "ReactJS",
+      "Redis",
+      "Prisma",
+      "Javascript",
+      "Typescript",
+      "AGORA",
+    ],
     role: " Full-stack development",
     code: "",
     demo: "",
