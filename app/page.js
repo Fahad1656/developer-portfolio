@@ -32,9 +32,11 @@ export default async function Home() {
       <Experience />
       <Skills />
       <Projects />
+
       <Education />
-     
+      <Blog />
+
       <ContactSection />
     </>
-  )
+  );
 };
