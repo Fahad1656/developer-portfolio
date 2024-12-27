@@ -8,7 +8,8 @@ export const projectsData = [
     id: 1,
     name: "Leveraging Sequential Deep Learning Models for Detecting Multitude of Human Action Categories ",
     description:
-      "In today’s rapidly advancing world of science and technology, Human Action Recognition (HAR) has gained significant attention for enabling smart decision-making. Our research focuses on applying HAR to address criminal activities using a dataset of 1,275 videos featuring 20 actions, including violent and non-violent behaviors. We developed a pipeline combining YOLO-v8 for background extraction and deep learning models (Conv-LSTM and LRCN) for video classification. The LRCN model achieved the best performance, with 62% accuracy and 60% F1 score for 20 classes, 63% accuracy and 66% F1 score for 17 classes, and 88% accuracy with 87% F1 score for binary classification. This work highlights the potential of HAR in enhancing real-time public safety and intelligent decision-making.",
+      "Human Action Recognition (HAR) is critical for smart decision-making and public safety. Our study focuses on recognizing actions using a dataset of 1,275 videos featuring 20 actions, including violent and non-violent behaviors. A pipeline combining YOLO-v8 for background extraction and deep learning models (Conv-LSTM and LRCN) was developed. The LRCN model achieved 62% accuracy and 60% F1 score for 20 classes, 63% accuracy and 66% F1 score for 17 classes, and 88% accuracy with 87% F1 score for binary classification. This highlights HAR's potential for enhancing real-time safety systems.",
+      
     tools: [
       "Python",
       "Tensorflow",
