@@ -149,7 +149,7 @@ export const projectsData = [
     "NumPy",
     "Farneback Optical Flow"
   ],
-  role: "Computer Vision Engineer – implemented and integrated deep learning models for action recognition, object detection, and face recognition",
+  role: "Implemented and integrated deep learning models for action recognition, object detection, and face recognition",
   code: "",
   demo: "/videos/combined_detection_output.mp4",
   image: null
