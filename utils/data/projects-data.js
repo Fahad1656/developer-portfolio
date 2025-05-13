@@ -149,7 +149,7 @@ export const projectsData = [
     "NumPy",
     "Farneback Optical Flow"
   ],
-  role: "Implemented and integrated deep learning models for violence detection, object detection, and face recognition",
+  role: "Implemented and integrated deep learning models for violence detection, weapon detection, and face identification.",
   code: "",
   demo: "/videos/combined_detection_output.mp4",
   image: null
