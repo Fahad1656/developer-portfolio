@@ -131,7 +131,7 @@ export const projectsData = [
   },
   {
   id: 6,
-  name: "Integrated Video Surveillance System for Threat Detection",
+  name: "Integrated Surveillance System for Threat Detection",
 
   description:
   "A real-time surveillance system that detects violence, weapons, and identifies faces in video streams.The system outputs annotated videos for use in security and law enforcement monitoring.",
