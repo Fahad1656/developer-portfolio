@@ -1,3 +1,4 @@
+// 
 // @flow strict
 
 import * as React from 'react';
@@ -62,6 +63,20 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">{`};`}</span>
           </div>
         </code>
+
+        {project.demo && project.demo.endsWith('.mp4') && (
+          <div className="mt-4">
+            <video
+  src={project.demo}
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="rounded-lg w-full max-h-[400px] object-cover pointer-events-none"
+/>
+
+          </div>
+        )}
       </div>
     </div>
   );

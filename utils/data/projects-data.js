@@ -76,28 +76,28 @@ export const projectsData = [
     demo: "",
     image: realEstate,
   },
+  // {
+  //   id: 4,
+  //   name: "Cattle-disease detection",
+  //   description:
+  //     "This is the disease detection system of cattle where you have to input cow’s mouth , feet and skin images . After reading the images it will detect the cow have any diseases on mouth or feet or skin if any disease detected it will return the cow is not healthy or else it will return the cow is healthy ",
+
+  //   tools: [
+  //     "Python",
+  //     "Mobilnetv2",
+  //     "OpenCV",
+  //     "Torch",
+  //     "Tensorflow",
+  //     "MySQL",
+  //     "FastAPI",
+  //   ],
+  //   code: "",
+  //   demo: "",
+  //   image: ayla,
+  //   role: "Image Processing, model training and integrating the models in the restful APIS for cow disease detection",
+  // },
   {
     id: 4,
-    name: "Cattle-disease detection",
-    description:
-      "This is the disease detection system of cattle where you have to input cow’s mouth , feet and skin images . After reading the images it will detect the cow have any diseases on mouth or feet or skin if any disease detected it will return the cow is not healthy or else it will return the cow is healthy ",
-
-    tools: [
-      "Python",
-      "Mobilnetv2",
-      "OpenCV",
-      "Torch",
-      "Tensorflow",
-      "MySQL",
-      "FastAPI",
-    ],
-    code: "",
-    demo: "",
-    image: ayla,
-    role: "Image Processing, model training and integrating the models in the restful APIS for cow disease detection",
-  },
-  {
-    id: 5,
     name: "Advanced Leaf Counting for Agricultural Applications Using Deep Learning",
 
     description:
@@ -110,7 +110,7 @@ export const projectsData = [
     image: crefin,
   },
   {
-    id: 6,
+    id: 5,
     name: "User and Admin Management Service",
 
     description:
@@ -129,6 +129,32 @@ export const projectsData = [
     demo: "",
     image: crefin,
   },
+  {
+  id: 6,
+  name: "Integrated Video Surveillance System for Threat Detection",
+
+  description:
+  "A real-time surveillance system that detects violence, weapons, and identifies faces in video streams.The system outputs annotated videos for use in security and law enforcement monitoring.",
+
+
+  tools: [
+    "Python",
+    "OpenCV",
+    "TensorFlow",
+    "3D CNN",
+    "Torch",
+    "Keras",
+    "YOLOv8",
+    "InsightFace",
+    "NumPy",
+    "Farneback Optical Flow"
+  ],
+  role: "Computer Vision Engineer – implemented and integrated deep learning models for action recognition, object detection, and face recognition",
+  code: "",
+  demo: "/videos/combined_detection_output.mp4",
+  image: null
+}
+
 ];
 
 
